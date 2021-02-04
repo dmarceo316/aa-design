@@ -18,24 +18,6 @@
     <title>AA-design</title>
 </head>
 <body>
-    <div class="container-fluid dark">
-        <div class="row full-page">
-            <div class="col text-center text-white full-page" 
-            data-aos="fade-left"
-            data-aos-duration="2000"
-            >
-            <a href="#home" class="text-lg"><i class="fa fa-arrow-circle-o-down mt-5 text-white" aria-hidden="true"></i></a>
-                <h1 class="text-lg mt-5">"THERE IS NO SUCH THING AS A BORING PROJECT..."</h1>
-            </div>
-        </div>
-        <div class="row mt-6">
-            <div class="col text-center text-white full-page" 
-            data-aos="fade-right"
-            >
-                <h1 class="text-lg">"THERE ARE ONLY BORING EXECUTIONS" </h1>
-                <h1>- Irene Ktzkorn</h1>
-            </div>
-        </div>
 <!-- navigation -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -56,14 +38,13 @@
     <div class="container mt-6" id="home" data-aos="fade">
         <div class="row">
             <div class="col-sm">
-                <h1 class="text-xl text-dark">ADAM ARCEO</h1>
-                <h2 class="mt-5">FRONT END DEVELOPER</h2>
+                <h1 class="text-xl text-dark"> < ADAM ARCEO / ></h1>
+                <h2 class="mt-5">FULL STACK DEVELOPER</h2>
             </div>
         </div>
         <div class="row">
             <div class="col mt-5">
-                <p>Hello my name is Adam Arceo. I am a front end developer currently
-                residing in Seattle Washington. 
+                <p>Hello my name is Adam Arceo. I am a fullstack developer specializing in frontend development.
                 </p>
             </div>
         </div>
@@ -72,41 +53,44 @@
 <div class="container mt-6" id="about">
     <div class="row">
         <div class="col-sm text-center">
-            <h2 class="text-lg">ABOUT ME</h2>
+            <h2 class="text-lg text-dark">ABOUT ME</h2>
         </div>
     </div>
-    <div class="row mt-5 mb-5">
-        <div class="col-sm-6">
-            <img src="img/adam.jpg" class="img-fluid">
-            <p class="text-center mt-5 text-md" >I am a web developer specializing in front end UX/UI, 
-                by using an array of technologies such as: HTML, CSS, JS, REACT. In addition, 
-                I’ve also worked with libraries such as: A-frame, AOS, AnimeJS, Bootstrap. 
-                I thrive in a team environment and value the opportunity to brainstorm and collaborate with my colleagues to yield client satisfaction.
-                Web design has created a space for my creativity to flow—and with an open mind, sky’s the limit.   
-                Below are a few projects I’ve created to show case my skills in web design. Please take a look and enjoy!
+    <div class="row">
+        <div class="col">
+            <p class="text-center mt-5 text-md" >I am a fullstack developer specializing in front end UX/UI, by using an array of technologies such as: 
+                HTML, CSS, Javascript, React, MongoDB, Express, NodeJS. Coding started off as a hobby to an obsession; from making a html only websites,
+                to making single page applications with React.I thrive in a team environment and value the opportunity to brainstorm and collaborate with 
+                my colleagues to yield client satisfaction. Web design has created a space for my creativity to flow—and with an open mind, sky’s the limit.
+                Outside of coding I enjoy hiking, eating, and exploring the Northwest.  Below are a few projects I’ve created to show case my skills in web design. 
+                Please take a look and enjoy!
             </p>
         </div>
-        <div class="col-sm-6">
-            <div class="row mt-5">
+    </div>
+
+    <div class="row mt-6 mb-5">
                 <div class="col-4">
-                    <img src="img/html-5.png" alt="html-5 logo" class="img-fluid zoom">
+                    <img src="img/html-5.png" alt="html-5 logo" class="zoom small">
                 </div>
                 <div class="col-4">
-                    <img src="img/css-3.png" alt="css logo" class="img-fluid zoom">
+                    <img src="img/css-3.png" alt="css logo" class="zoom small" >
                 </div>
                 <div class="col-4">
-                    <img src="img/javascript.png" alt="javascript" class="img-fluid zoom">
+                    <img src="img/javascript.png" alt="javascript" class="zoom small">
                 </div>
             </div>
             <div class="row mt-5 mb-5">
-                <div class="col-4">
-                    <img src="img/bootstrap.png" alt="bootstrap" class="img-fluid zoom">
+                <div class="col-3">
+                    <img src="img/mongodb.png" alt="mongodb" class="img-fluid zoom">
                 </div>
-                <div class="col-4">
+                <div class="col-3">
+                    <img src="img/express.png" alt="express" class="img-fluid zoom">
+                </div>
+                <div class="col-3">
                     <img src="img/react.png" alt="react" class="img-fluid zoom">
                 </div>
-                <div class="col-4">
-                    <img src="img/sass.png" alt="sass/scss" class="img-fluid zoom">
+                <div class="col-3">
+                    <img src="img/node.png" alt="node" class="img-fluid zoom">
                 </div>
             </div>
         </div>
@@ -117,7 +101,25 @@
 <div class="container mt-6" id="projects">
     <div class="row">
         <div class="col text-center">
-            <h2 class="text-lg" >MY PROJECTS</h2>
+            <h2 class="text-lg text-dark" >MY PROJECTS</h2>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-sm-6" data-aos="fade-up-left">
+            <a href="https://bobsmeattest.netlify.app/home"><div class="card zoom">
+                    <img class="card-img" src="img/bobsmeat.png" alt="Card image">
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6" data-aos="zoom-in">
+            <h3 class="text-lg" >Bob's Quality Meats</h3>
+            <p>I wanted to create a website for a local meat company in Seattle. I went for a simplistic aproach, with some pop. Website includes a home, menu, and 
+                contact components. The contact input does use for verifcation for email and name input's using react-redux-form. 
+                <br/>
+                <br/>
+                incorporates: React
+            </p>
+            <p><a href="https://github.com/dmarceo316/BobsQualityMeat" class="stretched-link text-danger">Link to code</a></p>
         </div>
     </div>
     <div class="row mt-5">
@@ -129,9 +131,11 @@
         </div>
         <div class="col-sm-6" data-aos="zoom-in">
             <h3 class="text-lg"> Yummm co. Ice Cream website</h3>
-            <p>This website was created for a coding boot camp course. To make it fun, I chose to make it about ice cream.
+            <p>This website was created for a coding bootcamp course. To make it fun, I chose to make it about ice cream.
                 The links on the nav bar and picture on the index page are functional. 
-                Website incorporates: HTML, CSS, JS, and Bootstrap. 
+                <br/>
+                <br/>
+                incorporates: HTML, CSS, JS, and Bootstrap. 
             </p>
             <p><a href="https://github.com/dmarceo316/yummm-ice-cream" class="stretched-link text-danger">Link to code</a></p>
         </div>
@@ -142,7 +146,9 @@
             <p>As a personal project, I was inspired to design an app that would be one step above the common  “to-do list”.
                 I generated the idea of an “A to B” comparison app. The app will take a list of items and compare the choices.
                 From there, the user can decide between the items, and narrow their choices until there’s one left.
-                App incorporates: HTML, CSS, and JS.
+                <br/>
+                <br/>
+                incorporates: HTML, CSS, and JS.
             </p>
             <p><a href="https://github.com/dmarceo316/a-b-tester" class="stretched-link text-danger">Link to code</a></p>
         </div>
@@ -153,27 +159,10 @@
             </a>
         </div>
     </div>
-    <div class="row mt-5">
-        <div class="col-sm-6" data-aos="fade-up-left">
-            <a href="https://dmarceo316.github.io/8-bit-form/"><div class="card zoom">
-                    <img class="card-img" src="img/8bit-site.png" alt="Card image">
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-6" data-aos="zoom-in">
-            <h3 class="text-lg" >8 Bit Academy form</h3>
-            <p>This form was designed to play with the AnimeJS library used in Javascript.
-                This is a form to send an email to a made up program. When the user presses
-                the send button, an animation will occur. Other animations also occur
-                on the screen as well. Incorporated with HTML, CSS JS, AnimeJS.
-            </p>
-            <p><a href="https://github.com/dmarceo316/8-bit-form" class="stretched-link text-danger">Link to code</a></p>
-        </div>
-    </div>
     <!-- contact -->
     <div class="row mt-6" id="contact">
         <div class="col">
-            <h1 class="text-xl">LETS CHAT</h1>
+            <h1 class="text-xl text-dark">LETS CHAT</h1>
         </div>
     </div>
     <div class="row mb-6 mt-6">
