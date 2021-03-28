@@ -78,3 +78,9 @@ a{
     background-color: white;
 }
 
+@media all and (max-width: 1024px) {
+    #canvas__float {
+        display: none;
+    }
+}
+
