@@ -3,29 +3,44 @@ html {
 }
 
 body{
-    font-family: 'Nanum Gothic', sans-serif;
-    background-color: #6369D1;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #050609;
     color: white;
 }
 
 a:hover{
     text-decoration: none;
+    color: gray;
+}
+
+a{
+    color: white;
 }
 
 .text-lg{
-    font-size: 5rem;  
+    font-size: 3rem; 
+    font-family: 'Ramabhadra', sans-serif;
 }
 
 .text-xl{
-    font-size: 7rem;
+    font-size: 5rem;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.text-nrm{
+    letter-spacing: 3px;
 }
 
 .dark{
     background-color: #100B00;
 }
 
+.light{
+    color: white;
+}
+
 .mt-6{
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .mb-6{
@@ -50,3 +65,16 @@ a:hover{
     width: 100%;
 
 }
+
+.line-md{
+    height: 3px;
+    width: 120px;
+    background-color: white;
+}
+
+.line-sm{
+    height: 3px;
+    width: 60px;
+    background-color: white;
+}
+
